@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES2019",
+    "module": "ES2020",
+    "strict": true,
+    "typeRoots": [
+      "node_modules/@types",
+    ],
+    "lib": [
+      "es2019"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "strictFunctionTypes": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+  }
+}
